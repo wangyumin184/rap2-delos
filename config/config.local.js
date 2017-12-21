@@ -8,12 +8,12 @@ module.exports = {
     key: 'rap2:sess'
   },
   db: {
-    dialect: 'mysql',
-    host: 'localhost',
+   dialect: 'mysql',
+    host: '172.20.50.30',
     port: '3306',
     username: 'root',
-    password: '',
-    database: 'RAP2_DELOS_APP_LOCAL',
+    password: 'wj@pa2016', // KeyCenter 配置项密文
+    database: 'RAP2_DELOS_APP',
     pool: {
       max: 5,
       min: 0,

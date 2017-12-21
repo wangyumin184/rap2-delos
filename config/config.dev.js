@@ -9,10 +9,10 @@ module.exports = {
   },
   db: {
     dialect: 'mysql',
-    host: 'localhost',
+    host: '172.20.50.30',
     port: '3306',
     username: 'root',
-    password: '', // KeyCenter 配置项密文
+    password: 'wj@pa2016', // KeyCenter 配置项密文
     database: 'RAP2_DELOS_APP',
     pool: {
       max: 5,

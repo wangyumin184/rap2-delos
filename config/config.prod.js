@@ -12,7 +12,7 @@ module.exports = {
     host: 'localhost',
     port: '3306',
     username: 'root',
-    password: '',
+    password: 'wj@pa2016', // KeyCenter 配置项密文
     database: 'RAP2_DELOS_APP',
     pool: {
       max: 5,
